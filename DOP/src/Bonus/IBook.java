@@ -1,4 +1,4 @@
-package newshelf;
+package Bonus;
 
 public sealed interface IBook<T> extends Comparable<IBook<T>> permits Comic, Fiction, TextBook {
   
